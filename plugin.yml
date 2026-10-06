@@ -1,0 +1,38 @@
+name: Building
+version: 1.1.0
+main: Building\Main
+api:
+- 2.0.0
+load: POSTWORLD
+author: rpg636zjhi
+description: 金锄头(是用指令获取的！)圈地保存/导入建筑，带粒子选区显示
+website: https://github.com/rpg636zjhi
+prefix: BUILD
+
+commands:
+  build:
+    description: 建筑管理命令
+    usage: "/build <save|paste|list|info|delete> [名称]"
+    aliases: [b]
+    permission: building.command
+  wand:
+    description: 获得圈地工具（带NBT的金锄头）
+    usage: "/wand"
+    permission: building.command
+  pos1:
+    description: 设置角点1
+    usage: "/pos1"
+    permission: building.command
+  pos2:
+    description: 设置角点2
+    usage: "/pos2"
+    permission: building.command
+
+permissions:
+  building.command:
+    default: op
+    description: 允许使用建筑插件命令
+  building.*:
+    default: op
+    children:
+      building.command: true

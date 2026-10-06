@@ -1,0 +1,14 @@
+# 圈地工具物品 ID，294 = 金锄头
+wand-item: 294
+
+# 单次选区最大方块数
+max-blocks: 50000
+
+# 保存时是否跳过空气方块
+skip-air: true
+
+# 是否让圈地工具不掉耐久
+protect-durability: true
+
+# 粒子显示范围（格），超出该距离的粒子不生成
+particle-range: 20

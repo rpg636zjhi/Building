@@ -1,3 +1,9 @@
+> [!WARNING]
+> **本仓库已归档（Archived）** —— 因不可抗力，项目暂停维护，仓库转为只读。
+> 代码仍可自由下载、克隆与 fork，历史 Release 与文档保留。
+> 归档并非永久决定：后续条件允许时，**可能会取消归档**并恢复维护。
+> 详见 [ARCHIVE.md](ARCHIVE.md)。
+
 # Building
 
 [![PMMP API](https://img.shields.io/badge/PMMP-API%202-blue)](https://github.com/pmmp/PocketMine-MP)
